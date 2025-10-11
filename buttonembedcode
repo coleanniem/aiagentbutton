@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Custom Button Link</title>
+  <style>
+    body {
+      background: transparent;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .my-button {
+      padding: 14px 32px;
+      border-radius: 5px;
+      font-size: 18px;
+      border: none;
+      background: #0059f7;
+      color: #fff;
+      cursor: pointer;
+      transition: background 0.2s;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .my-button:hover {
+      background: #003aad;
+    }
+  </style>
+</head>
+<body>
+  <a href="https://coleanniem.github.io/aiagent/embedcode.html" target="_blank" class="my-button">Start AI Interaction</a>
+</body>
+</html>
